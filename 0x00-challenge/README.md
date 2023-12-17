@@ -1,7 +1,7 @@
 # 0x00-Fix_My_Code_Challenge
 
 ## Introduction
-Welcome to the `**Fix My Code Challenge!**` This project is an opportunity to dive into existing codebases, identify issues, and fix them. The challenge includes tasks in different programming languages, each with its unique set of problems to solve.
+Welcome to the `Fix My Code Challenge!` This project is an opportunity to dive into existing codebases, identify issues, and fix them. The challenge includes tasks in different programming languages, each with its unique set of problems to solve.
 
 ## Project Overview
 - **Start Date:** Dec 11, 2023 6:00 AM
