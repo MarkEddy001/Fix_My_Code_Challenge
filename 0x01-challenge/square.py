@@ -1,54 +1,21 @@
 #!/usr/bin/python3
 
 class Square:
-    """
-    A class representing a square shape.
-    
-    Attributes:
-    - width: The width of the square.
-    - height: The height of the square.
-    """
-
-    def __init__(self, width=0, height=0):
-        """
-        Initializes a square with the given width and height.
-        
-        Args:
-        - width: The width of the square.
-        - height: The height of the square.
-        """
-        self.width = width
-        self.height = height
+    def __init__(self, side=0):
+        self.side = side
 
     def area_of_my_square(self):
-        """
-        Calculates the area of the square.
-        
-        Returns:
-        The area of the square.
-        """
-        return self.width * self.height
+        """ Area of the square """
+        return self.side * self.side
 
     def perimeter_of_my_square(self):
-        """
-        Calculates the perimeter of the square.
-        
-        Returns:
-        The perimeter of the square.
-        """
-        return (self.width * 2) + (self.height * 2)
+        return self.side * 4
 
     def __str__(self):
-        """
-        Returns a string representation of the square.
-        
-        Returns:
-        A string representation of the square in the format 'width/height'.
-        """
-        return "{}/{}".format(self.width, self.height)
+        return "Side: {}".format(self.side)
 
 if __name__ == "__main__":
-    s = Square(width=12, height=9)
+    s = Square(side=12)
     print(s)
     print(s.area_of_my_square())
     print(s.perimeter_of_my_square())
