@@ -13,7 +13,7 @@ Your task is to dive into the chaotic world of bugs, errors, and exceptions, arm
 ## Getting Started 🏁
 
 1. Clone this repository (but watch out for the bugs! 🐛)
-2. Navigate to the `0x01-Fix_My_Code_Challenge` directory.
+2. Navigate to the `Fix_My_Code_Challenge` directory.
 3. Start fixing! Remember, Google is your friend, StackOverflow is your mentor, and `print` is your secret debugging weapon.
 
 ## Remember 💡
